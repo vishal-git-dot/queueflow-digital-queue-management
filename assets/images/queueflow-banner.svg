@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">QueueFlow — Digital Queue Management</title>
+  <desc id="desc">A modern navy and teal banner with queue ticket cards and the QueueFlow tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101d35"/><stop offset="1" stop-color="#183b52"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#42e0c1"/><stop offset="1" stop-color="#35a9d6"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#b6f5e9" opacity=".18"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#06101f" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#dots)"/>
+  <circle cx="1080" cy="35" r="170" fill="#42e0c1" opacity=".07"/><circle cx="1000" cy="330" r="190" fill="#35a9d6" opacity=".08"/>
+  <g transform="translate(78 82)">
+    <rect width="68" height="68" rx="20" fill="url(#accent)"/>
+    <path d="M19 22h30v8H19zm0 16h22v8H19zm0 16h30v-8H19z" fill="#102b3b" opacity=".95"/>
+    <circle cx="50" cy="42" r="5" fill="#102b3b"/>
+  </g>
+  <text x="78" y="205" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">QueueFlow</text>
+  <text x="82" y="250" fill="#a9c8d5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Digital Queue Management System</text>
+  <rect x="80" y="282" width="300" height="3" rx="2" fill="url(#accent)"/>
+  <text x="82" y="319" fill="#d8f7f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="1.1">LESS WAITING. MORE LIVING.</text>
+  <g filter="url(#shadow)" transform="translate(720 76)">
+    <rect x="0" y="0" width="360" height="218" rx="22" fill="#f7fbfc"/>
+    <text x="26" y="38" fill="#526777" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">NOW SERVING</text>
+    <text x="26" y="112" fill="#102b3b" font-family="Arial,sans-serif" font-size="70" font-weight="800">A-024</text>
+    <rect x="26" y="137" width="308" height="1" fill="#dce7eb"/>
+    <circle cx="36" cy="174" r="6" fill="#21b99b"/>
+    <text x="52" y="179" fill="#526777" font-family="Arial,sans-serif" font-size="14">Admissions counter</text>
+    <rect x="260" y="158" width="74" height="31" rx="9" fill="#dff8f2"/>
+    <text x="297" y="178" text-anchor="middle" fill="#087d69" font-family="Arial,sans-serif" font-size="12" font-weight="700">LIVE</text>
+  </g>
+</svg>
